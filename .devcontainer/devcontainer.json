@@ -1,0 +1,16 @@
+{
+    "customizations": {
+      "vscode": {
+        "settings": {
+          "keyboard.dispatch": "keyCode", // Configurar teclado en español
+          "extensions": [
+            "GitHub.copilot",
+            "mhutchie.git-graph",
+            "donjayamanne.githistory",
+            "eamodio.gitlens"
+          ]
+        }
+      }
+    },
+    "postCreateCommand": "git remote add upstream <URL del repositorio original> && git fetch upstream && git checkout main && git merge upstream/main"
+  }  
