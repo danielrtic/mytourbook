@@ -1,16 +1,15 @@
 {
-    "customizations": {
-      "vscode": {
-        "settings": {
-          "keyboard.dispatch": "keyCode", // Configurar teclado en español
-          "extensions": [
-            "GitHub.copilot",
-            "mhutchie.git-graph",
-            "donjayamanne.githistory",
-            "eamodio.gitlens"
-          ]
-        }
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "keyboard.dispatch": "keyCode", 
+        "extensions": [
+          "GitHub.copilot",
+          "mhutchie.git-graph",
+          "donjayamanne.githistory",
+          "eamodio.gitlens"
+        ]
       }
-    },
-    "postCreateCommand": "git remote add upstream https://github.com/mytourbook/mytourbook.git && git fetch upstream && git checkout main && git merge upstream/main"
-  }  
+    }
+  }
+}
